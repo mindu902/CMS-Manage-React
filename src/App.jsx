@@ -24,7 +24,7 @@ function App(props) {
                     </div>
                 </div>
             </div>
-            <footer>Respect | Copyright &copy; 2022 Author Min</footer>
+            <footer>2022 Author Min</footer>
         </Layout>
         
     )

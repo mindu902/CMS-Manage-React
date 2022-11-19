@@ -98,7 +98,7 @@ export default function ListTable() {
                 columns={columns} 
                 dataSource={arr} 
                 onChange={pageChange} 
-                pagination={pagination}/>;
+                pagination={pagination}/>
         </div>
     )
 }

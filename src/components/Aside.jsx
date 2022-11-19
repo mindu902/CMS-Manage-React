@@ -39,7 +39,7 @@ export default function Aside() {
             </Menu.Item>
 
             <Menu.Item key="means"><DatabaseOutlined/>
-                <span>Edit File</span>
+                <span>Profile Settings</span>
             </Menu.Item>
         </Menu>
     )

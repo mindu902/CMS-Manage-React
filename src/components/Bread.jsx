@@ -9,13 +9,13 @@ export default function Bread() {
     useEffect(()=>{
         switch(pathname){
             case "/listtable":
-                setbreadName("See Article Table");
+                setbreadName("See Articles");
                 break;
             case "/eidt":
                 setbreadName("Edit Article");
                 break;
             case "/means":
-                setbreadName("Edit Files");
+                setbreadName("Profile Settings");
                 break;
             default:
                 setbreadName(pathname.includes('edit') ? 'Edit Article': "")
